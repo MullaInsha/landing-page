@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-seri;
+}
+:root{
+  --color:rgb(156, 100, 100);
+}
+html{
+    scroll-behavior: smooth;
+}
+ #header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:black;
+    position: sticky;
+   z-index: 999;
+    top: 0;
+    left: 0; 
+ }
+ .logo{
+    margin-left: 100px;
+    width: 150px;
+    height: 80px;
+    border-radius: 50%;;
+ 
+ }
+ #navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ #navbar li{
+    list-style: none;
+ }
+ #navbar li a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    
+ }
+ #navbar li a:hover{
+   text-decoration: underline;
+   color:#088178;
+  
+   
+}
+ #hero{
+   background-image: url("images/hero.jpg");
+   height:90vh;
+   width: 100%;
+   background-size: cover;
+  
+
+ }
+ .text{position: relative;
+   top:200px;
+   left: 200px;
+   height:500px;
+   width:500px;
+   display: flex;
+   flex-direction: column;
+   line-height: 60px;
+
+ }
+ ul li a{
+   text-transform: capitalize;
+   font-size: 20px;
+   font-weight: 900;
+ }
+ h1{
+   text-transform: capitalize;
+   font-size: 60px;
+   
+ }
+ span{
+   color: #088178;
+ }
+ h4{
+   text-transform: capitalize;
+   font-size: 30px;
+   color: green;
+ }
+ button{
+   height:2em;
+   width: 8em;
+   border: none;
+   background-color: transparent;
+   cursor:pointer;
+   font-size: 20px;
+   margin-left: 100px;
+   color: brown;
+   font-weight: 1000;
+  
+ }
+ #feature{
+ 
+  text-align: center;
+  padding-top:125px;
+ 
+ 
+ }
+ .feature{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height: 50vh;
+ z-index: 2000;
+ position: relative;
+ }
+ .fe-box{
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 30px;
+ }
+ h6{
+  margin: 10px;
+  text-align: center;
+  font-size: 17px;
+  background-color: antiquewhite;
+ }
+ #newarrival{
+  text-align: center;
+  
+  padding-top:100px;
+
+ }
+ .first{
+  background-image: url("images/newarrival/b17.jpg");
+  height:300px;
+  width:600px;
+  line-height: 40px;
+
+ }
+ .firstcontent span{
+  font-size: 40px;
+  font-weight: 900;
+ }
+ .firstcontent,.secondcontent{
+  display: flex;
+  flex-direction:column;
+  text-align: left;
+  position: relative;
+  top:40px;
+  left: 30px;
+
+ }
+ .firstcontent h6,.secondcontent h6{
+  width:150px;
+  background:none;
+  font-weight: bold;
+  /* margin-left: 9px; */
+  color: white;
+  font-size: 25px;
+ }
+ h3{
+  color: white;
+ }
+ .firstcontent button{
+ /* margin-left: -15px; */
+ border: 1px solid brown;
+ }
+ .second{
+  background-image: url("images/newarrival/b10.jpg");
+  height:300px;
+  width:600px;
+  line-height: 40px;
+ }
+ .secondcontent span{
+  font-size: 40px;
+  font-weight: 900;
+  color:white;
+
+ }
+ .offer{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 30px;
+ }
+
+ .offer2{
+  display: flex;
+  justify-content: space-around;
+ }
+ .offer-1-box,.offer-2-box,.offer-3-box{
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: flex-start;
+  padding-left: 30px;
+  line-height: 40px;
+  margin-bottom: 30px;
+ }
+ .offer-1-box h2,.offer-2-box h2,.offer-3-box h2{
+  color: white;
+ }
+ .offer-1-box h4,.offer-2-box h4,.offer-3-box h4{
+  font-size: 17px;
+  color: red;
+ }
+ .offer-1-box{
+  background-image: url("images/offer2/b7.jpg");
+  
+ }
+ .offer-2-box{
+  background-image: url("images/offer2/b4.jpg");
+  
+ }
+ .offer-3-box{
+  background-image: url("images/offer2/b18.jpg");
+  
+ }
+ #footer h1, #footer p{
+  text-align: center;
+  color: black;}
+  #footer p{
+    margin-bottom: 30px;
+  }
+    
+ 
+ 
+.footer{
+  display: flex;
+  background:black;
+  color: aliceblue;
+  justify-content: space-around;
+  padding-bottom: 30px;
+ 
+}
+.contact{
+  line-height: 20px;
+  color:var(--color);
+  padding: 20px;
+}
+.contact h4,.about h4,.customer h4{
+  margin-bottom: 20px;
+  color: white;
+  margin-top:20px;
+}
+.contact img{
+  margin: 0%;
+}
+.contact span{
+  display:inline-block;
+  line-height: 30px;
+  font-size: 20px;
+  color:aliceblue ;
+}
+.about ul li,.customer ul li{
+  list-style: none;
+}
+.about ul li a,.customer ul li a{
+  text-decoration: none;
+  color:var(--color);
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 25px;
+}
+.news{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.news h1{
+  font-size: 30px;
+}
+.news h6{
+  background:none;
+  margin-left: -4px;
+}
+.form input{
+  width:100%;
+  display: inline-block;
+}
+.form button{
+  display: inline-block;
+  color:var(--color);
+}
